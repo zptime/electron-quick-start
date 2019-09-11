@@ -20,10 +20,15 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    fullscreen: false,  // 不允许全屏
+    resizable: false,    // 不允许改变窗口size，
     webPreferences: {
+      // nodeIntegration: false,// 禁用node.js
       preload: path.join(__dirname, 'preload.js')
     }
   })
+
+  console.log(require.resolve('electron'));
 
   // and load the index.html of the app.
   // 加载index.html文件

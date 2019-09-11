@@ -17,6 +17,9 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^6.0.7"
+    "electron-devtools-installer": "^2.2.4"
+  },
+  "dependencies": {
+    "electron": "^6.0.8"
   }
 }
