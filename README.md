@@ -1,6 +1,6 @@
 # electron-quick-start
 
-快速开发实例程序
+描述：快速开发实例程序
 
 ```bash
 # Clone this repository
