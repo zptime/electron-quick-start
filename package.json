@@ -20,6 +20,6 @@
     "electron-devtools-installer": "^2.2.4"
   },
   "dependencies": {
-    "electron": "^6.0.8"
+    "electron": "^9.1.0"
   }
 }
